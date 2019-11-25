@@ -5,7 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SubtypeCovariance;
-
+/// <summary>
+/// @author Derek Shaheen
+/// @date 11/24/2019
+/// @description Assignment code used for testing the EntityRepository
+/// </summary>
 namespace ConsoleSample
 {
     class Program
@@ -19,7 +23,7 @@ namespace ConsoleSample
             myEntity.Name = "Tom";
             Console.WriteLine("New entity ID: " + myEntity.ID.ToString());
             Console.WriteLine("New entity Name: " + myEntity.Name);
-
+            Console.ReadKey();
         }
     }
 }
